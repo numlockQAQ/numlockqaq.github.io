@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLANK SPACE</title>
+<link rel="stylesheet" href="css/css.css">
+
+	</head>
+
+<body>
+	
+	<div class="background"><span>HELLO</span></div>
+	<div class="box"> 
+	
+	</div>
+	<script>
+const background = document.querySelector(".background")
+
+        document.addEventListener('scroll', () => {
+            const scrollY = window.scrollY
+
+            if (scrollY !== 0) {
+                background.style.backgroundPosition = `calc(50% + ${scrollY}px) calc(50% + ${scrollY}px)`
+            }else{
+                background.style.backgroundPosition = ''
+            }
+        })
+</script>
+	 
+</body>
+</html>
