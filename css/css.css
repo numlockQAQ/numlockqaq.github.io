@@ -2,27 +2,30 @@
 /* CSS Document */
 html,
 body {
-            margin: 0;
-            padding: 0;
-            height: 200vh;
-            overflow-x: hidden;
-        }
+    margin: 0 auto;
+    padding: 0 ;
+    height: 1000px;
+}
 
         .background {
-            background-image:url("../img/001.jpg");
-            background-size: cover;
-            background-position: 50% 50%;
-            height: 200vh;
-            font: 800 20rem '';
-            line-height: 150vh;
-			
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            position: relative;
-            text-align: center;
-            overflow: hidden;
+    background-image: url("../img/001.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+			margin: 0 auto;
+    height: 100%;
+    font: 800 20rem '';
+    line-height: 700px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    overflow: hidden;
+			 
         }
-
+.background span{
+    text-align: center;
+    top: 20px;
+	
+}
         .background::before {
             content: "";
             background-size: cover;
@@ -36,15 +39,85 @@ body {
             z-index: -99;
 			
         }
+.donghua{}
 .box{
+			float: inherit;
 		position: absolute;
             letter-spacing: 2px;
-            top: 120vh;
-            width: 80%;
+            top: 550px;
+            width: 900px;
+	height: 60px;
             color: #fff;
             left: 50%;
+	border-radius: 15px;
             transform: translateX(-50%);
-            padding: 30px;
+	
             background-color: rgba(24,33,48,0.47);
+	opacity: 0.5;
 }
-        
+.box:hover {
+	content: "";
+	opacity: 1;
+	transition: all 0.5s ease-in;
+}
+.nav{
+	width: 900px;
+	height:100%;
+	margin: 0 auto;
+	padding: 0;
+}     
+
+.nav li {
+    list-style: none;
+    width: 300px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    font-family: "Source Han Sans Medium";
+    font-weight: 200;
+    font-size: 25px;
+    color: #20455B;
+	cursor: pointer;
+	position: relative;
+	z-index: 3;
+}
+.nav li::before {
+	content:"";
+	background-color: rgba(33,55,69,0.50);
+	width: 220px;
+	height: 40px;
+	border-radius: 10px;
+	position: absolute;
+	top: 10px;
+	left: 40px;
+    z-index: -90;
+	display: none;
+}
+.nav li:hover::before{
+	display: block;
+}
+.nav li:hover{
+	color: #FFFFFF;
+}
+a{
+	text-decoration: none;
+	color: #20455B;
+	transition: all 0.2s ease-in;
+}
+a:link{
+	color:#20455B;
+	transition: all 0.2s ease-in;
+}
+a:visiter{
+	color:#ffffff;
+	transition: all 0.2s ease-in;
+}
+a:hover{
+	color: #ffffff;
+	transition: all 0.2s ease-in;
+}
+a:active{
+	color: #ffffff;
+	transition: all 0.2s ease-in;
+}

@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.box{
+		margin: 0 auto;
+		height:100%;
+		width: 100%;
+		background-color:rgba(219,219,219,1.00);
+			padding-top: 200px;
+	padding-bottom: 200px;
+}
+	/*.box1{
+	margin: 0 auto;
+	height: 900px;
+		width: 100%;
+	background-color:rgba(219,219,219,1.00);
+	
+	
+	display: flex;
+	overflow: hidden;
+}*/
+	
+.box2{
+	margin: 0 auto;
+	height: 800px;
+		width: 1500px;
+	background-color: rgba(136,136,136,1.00);
+	position: relative;
+	z-index: 1;
+	display: flex;
+	overflow: hidden;
+}
+.box25{
+	margin: 0 auto;
+	height: 800px;
+		width: 1500px;
+	background-color: rgba(136,136,136,1.00);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	display: flex;
+	overflow: hidden;
+}
+.box24{
+    margin: 0 auto;
+    height: 3px;
+    width: 229px;
+    background-color: rgba(0,0,0,1.00);
+    position: absolute;
+    left: 477px;
+    top: 81px;
+    z-index: 5;
+    display: flex;
+    overflow: hidden;
+}
+.box245{
+    margin: 0 auto;
+    height: 85px;
+    width: 230px;
+    background-color: rgba(0,0,0,1.00);
+    position: absolute;
+    right: -145px;
+    z-index: 5;
+    display: flex;
+    
+	cursor: pointer;
+	transition: 0.4s;
+}
+.box245:hover{
+	right: 0px;}
+.gan1{
+    margin: 0 auto;
+    height: 4px;
+    width: 39px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255,1.00);
+    position: absolute;
+    left: 23px;
+    top: 26px;
+    z-index: 14;
+    display: flex;
+    overflow: hidden;
+}
+.gan2{
+    margin: 0 auto;
+    height: 4px;
+    width: 39px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255,1.00);
+    position: absolute;
+    left: 23px;
+    top: 40.5px;
+    z-index: 14;
+    display: flex;
+    overflow: hidden;
+}
+.gan3{
+    margin: 0 auto;
+    height: 4px;
+    width: 39px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255,1.00);
+    position: absolute;
+    left: 23px;
+    bottom: 26px;
+    z-index: 14;
+    display: flex;
+    overflow: hidden;
+}
+.daolan{
+    margin: 0 auto;
+    height: 400px;
+    width: 230px;
+    background-color: rgba(212,212,212,0);
+    position: absolute;
+    right: 0;
+	top:0;
+    z-index:5;
+    display: flex;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.daolan1{
+    margin: 0 auto;
+    height: 315px;
+    width: 230px;
+    background-color: rgba(212,212,212,0.5);
+    position: absolute;
+    right: 0;
+	bottom:0;
+    z-index:-1;
+    display: flex;
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.daolan:hover{
+	opacity: 1;
+}
+.daolan1 ol {
+    display: block;
+    float: left;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+	line-height: 55px;
+    font-family: 'Source Han Sans Normal';
+	font-size: 12px;
+    font-weight: 10px;
+    color: rgba(58,58,58,1.00);
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+	top: 70px;
+	left: 52px;
+}
+/*.daolan1 ol::before {
+	content:"";
+	margin: 0 auto;
+	background-color: rgba(173,173,173,1.00);
+	width: 160px;
+	height:40px;
+	border-radius: 20px;
+	position: absolute;
+	top: 50px;
+	left: -15px;
+    z-index: -90;
+	/*display: none;
+}*/
+.daolan1 ol:hover::before{
+	display: block;
+	color: #FFFFFF;
+}
+.daolan1 ol:hover{
+	color: #FFFFFF;
+}
+a{
+	text-decoration: none;
+	color:rgba(58,58,58,1.00);
+}
+a:link{
+	color:rgba(58,58,58,1.00);
+}
+a:visiter{
+	color:#ffffff;
+}
+a:hover{
+	color: #ffffff;
+}
+a:active{
+	color: #ffffff;
+}
+.box3{
+	transition: 0.6s;
+}
+.box4{
+	margin: 0 auto;
+	height: 800px;
+		width: 1500px;
+	background-color: rgba(255,255,255,1.00);
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.aripod{
+    float: left;
+    position: relative;
+    left: 55px;
+    top: 230px;
+    z-index: 2;
+}	
+
+
+.logo{
+	float: left;
+	width: 400px;
+	position: absolute;
+	left: 50px;
+	top: 40px;
+	z-index: 2
+	
+}
+
+
+
+
+
+.navigat{
+	position: absolute;
+	bottom: 40px;
+		left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	z-index: 5;
+}
+.bar{
+	width:20px;
+	height: 20px;
+	border: 2px solid rgba(122,122,122,1.00);
+	border-radius:16px;
+	margin: 20px;
+	cursor: pointer;
+	transition: 0.4s;
+	
+}
+
+.bar:hover{
+	background: rgba(122,122,122,1.00);
+}
+
+
+input[name="r"]{
+	position:absolute;
+	visibility: hidden;
+}
+#r1:checked ~ .s1{
+	margin-left: 0;
+}
+#r2:checked ~ .s1{
+	margin-left: -100%;
+
+}
+#r3:checked ~ .s1{
+	margin-left: -200%;
+}
+#r4:checked ~ .s1{
+	margin-left: -300%;
+}
+#r5:checked ~ .s1{
+	margin-left: -400%;
+}
+#r6:checked ~ .s1{
+	margin-left: -500%;
+}
+#r7:checked ~ .s1{
+	margin-left: -600%;
+}
+#r8:checked ~ .s1{
+	margin-left: -700%;
+}
+#r9:checked ~ .s1{
+	margin-left: -800%;
+}
+#r10:checked ~ .s1{
+	margin-left: -900%;
+}
+#r11:checked ~ .s1{
+	margin-left: -1000%;
+}
+#r12:checked ~ .s1{
+	margin-left: -1100%;
+}
+#r13:checked ~ .s1{
+	margin-left: -1200%;
+}

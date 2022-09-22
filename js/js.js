@@ -1,4 +1,3 @@
-<script>
 const background = document.querySelector(".background")
 
         document.addEventListener('scroll', () => {
@@ -9,5 +8,4 @@ const background = document.querySelector(".background")
             }else{
                 background.style.backgroundPosition = ''
             }
-        })
-</script>
+        })// JavaScript Document
